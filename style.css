@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e5e0ff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-family: "montserrat";
+    font-size: 6.5rem;
+  
+    text-decoration: ;
+  }
+  
+  label {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #090101;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-top: 1px solid #2d1e1e;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  
+  /* body {
+          background-color: #1818df;
+          font-family: "Roboto", sans-serif;
+    } */
+  /*   
+    #captchaBackground {
+          height: 220px;
+          width: 250px;
+          background-color: #2d3748;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+    }
+    
+    #captchaHeading {
+          color: rgb(49, 134, 25);
+    } */
+  
+  #captcha {
+    height: 80%;
+    width: 80%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: auto;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #submitButton {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+  }
+  
+  #refreshButton {
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+  }
+  
+  #textBox {
+    height: 25px;
+  }
+  
+  .incorrectCaptcha {
+    color: #ff0000;
+  }
+  
+  .correctCaptcha {
+     color: #7fff00;
+  }
+  
